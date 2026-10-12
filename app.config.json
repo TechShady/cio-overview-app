@@ -1,6 +1,6 @@
 {
   "$schema": "./.dt-app/app.config.schema.json",
-  "environmentUrl": "https://vystar.apps.dynatrace.com",
+  "environmentUrl": "https://guu84124.apps.dynatrace.com",
   "app": {
     "name": "CIO Overview",
     "version": "0.1.35",
