@@ -1,0 +1,23 @@
+{
+  "$schema": "./.dt-app/app.config.schema.json",
+  "environmentUrl": "https://vystar.apps.dynatrace.com",
+  "app": {
+    "name": "CIO Overview",
+    "version": "0.1.35",
+    "description": "CIO observability: service health, member impact, business risk, change intel",
+    "id": "my.cio.overview",
+    "scopes": [
+      { "name": "storage:metrics:read", "comment": "Read metrics from Grail" },
+      { "name": "storage:events:read", "comment": "Read deployment and platform events" },
+      { "name": "storage:spans:read", "comment": "Read distributed traces" },
+      { "name": "storage:entities:read", "comment": "Read entity data and entity names" },
+      { "name": "storage:logs:read", "comment": "Read logs" },
+      { "name": "storage:buckets:read", "comment": "Read bucket data" },
+      { "name": "storage:user.events:read", "comment": "Read RUM user events" },
+      { "name": "storage:security.events:read", "comment": "Read runtime security events" },
+      { "name": "state:app-states:read", "comment": "Read app settings" },
+      { "name": "state:app-states:write", "comment": "Write app settings" },
+      { "name": "davis-copilot:conversations:execute", "comment": "Dynatrace Intelligence — Davis CoPilot generative analysis" }
+    ]
+  }
+}
